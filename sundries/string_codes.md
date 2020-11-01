@@ -16,7 +16,7 @@ A couple of special cases:
 
 - Strings are delimited by double quotes in YAGL. If you actually want a double quote character inside your string, use the code `"{dq}"`. It's code point value is 0x22, which is the Latin-1 and UTF8 code for a double quote character.
 
-- Control codes are delimited by braces in YAGL. If you actually want braces inside your string, use the sequence `"{{"` where you want a single `"{"`. This prevents the open brace being treated as the start of a control code, and the closing brace, if any, will be treated as a normal character. Braces cannot be used in Latin-1 strings because their code point values are 0x7B and 0x7D, which are already assigned to other control codes. They print regular glyphs for UTF8 strings, so **yagl** forces strings containing braces to be encoded as UTF8.
+- Control codes are delimited by braces in YAGL. If you actually want braces inside your string, use the sequence `"\{\{"` where you want a single `"{"`. This prevents the open brace being treated as the start of a control code, and the closing brace, if any, will be treated as a normal character. Braces cannot be used in Latin-1 strings because their code point values are 0x7B and 0x7D, which are already assigned to other control codes. They print regular glyphs for UTF8 strings, so **yagl** forces strings containing braces to be encoded as UTF8.
 
 ## Control codes
 

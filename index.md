@@ -1,50 +1,37 @@
-Back to [README](../README.md)
+## Welcome to GitHub Pages
 
-# Table Of Contents
-- [Introduction](intro.md)
-- [YAGL syntax](yagl_syntax.md) - a basic introduction to core ideas.
-- [Building yagl on Linux](build_linux.md) 
-- [Building yagl on Windows](build_windows.md) 
-- [Software architecture](architecture.md)
+You can use the [editor on GitHub](https://github.com/UnicycleBloke/unicyclebloke.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-## Main record types
-- [Action00](actions/action00.md) - set properties for features
-- [Action01](actions/action01.md)
-- [Action02](actions/action02.md)
-  - [Action02: Basic](actions/action02_basic.md)        
-  - [Action02: Random](actions/action02_random.md)        
-  - [Action02: Variable](actions/action02_variable.md)        
-  - [Action02: Industry](actions/action02_industry.md)        
-  - [Action02: Sprite Layout](actions/action02_sprite_layout.md)        
-- [Action03](actions/action03.md)
-- [Action04](actions/action04.md)
-- [Action05](actions/action05.md)
-- [Action06](actions/action06.md)
-- [Action07](actions/action07.md)
-- [Action08](actions/action08.md)
-- [Action09](actions/action09.md)
-- [Action0A](actions/action0A.md)
-- [Action0B](actions/action0B.md)
-- [Action0C](actions/action0C.md)
-- [Action0D](actions/action0D.md)
-- [Action0E](actions/action0E.md)
-- [Action0F](actions/action0F.md)
-- [Action10](actions/action10.md)
-- [Action11](actions/action11.md)
-- [Action12](actions/action12.md)
-- [Action13](actions/action13.md)
-- [Action14](actions/action14.md)
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Graphics
-- [RealSprite](graphics/real_sprite.md)
-- [RecolourSprite](graphics/recolour_sprite.md)
+### Markdown
 
-## Sound effects
-- [ActionFE](actions/actionFE.md)
-- [ActionFF](actions/actionFF.md)
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-## Sundries
-- [Feature enumeration](sundries/features.md)
-- [New feature enumeration](sundries/new_features.md)
-- [String control codes](sundries/string_codes.md)
-- [Language codes](sundries/language_codes.md)
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UnicycleBloke/unicyclebloke.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
